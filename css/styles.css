@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0d1d;
+  font-family: 'Martian Mono', monospace;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 800px;
+  padding: 40px;
+  background-color: #111324;
+  border: 2px solid #4c4cff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(76, 76, 255, 0.3);
+}
