@@ -1,20 +1,29 @@
 body {
   margin: 0;
-  padding: 0;
+  display: flex;
   background-color: #0b0d1d;
   font-family: 'Martian Mono', monospace;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
   min-height: 100vh;
 }
-
+.icon-bar {
+  width: 80px;
+  background-image: url("../images/PATRON.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center top;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.left {
+  border-right: 1px solid #1a1a2e;
+}
+.right {
+  border-left: 1px solid #1a1a2e;
+}
 .content {
-  max-width: 800px;
+  flex: 1;
   padding: 40px;
-  background-color: #111324;
-  border: 2px solid #4c4cff;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(76, 76, 255, 0.3);
+  max-width: 900px;
 }
